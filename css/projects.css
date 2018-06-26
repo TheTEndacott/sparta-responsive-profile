@@ -31,6 +31,7 @@
     display: block;
     margin: 0 auto;
     width: 90%;
+    border: none;
     border-bottom: solid #E13A63 2px;
   }
 }
@@ -47,14 +48,16 @@
     margin: 0 auto;
     width: 90%;
     border: none;
+    border-bottom: solid #E13A63 2px;
   }
 }
 
 @media screen and (min-width: 993px) and (max-width: 1200px) {
-  header {
-    border-bottom: solid red 2px;
-  }
   .tile {
     border: none;
+  }
+  .screenshot {
+    width: 200px;
+    height: 100px;
   }
 }
