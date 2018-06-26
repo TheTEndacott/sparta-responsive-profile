@@ -49,3 +49,12 @@
     border: none;
   }
 }
+
+@media screen and (min-width: 993px) and (max-width: 1200px) {
+  header {
+    border-bottom: solid red 2px;
+  }
+  .tile {
+    border: none;
+  }
+}
