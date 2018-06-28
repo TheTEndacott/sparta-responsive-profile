@@ -1,0 +1,81 @@
+
+header, section {
+	display: inline-block;
+}
+
+.left {
+	float: left;
+	width: 35%;
+}
+
+.right {
+	float: right;
+	width: 60%;
+}
+
+#headshot {
+	display: block;
+	text-align: center;
+	margin: 50px auto 0;
+	border: 2px solid #E13A63;
+}
+
+.experience {
+	display: inline-block;
+	clear: both;
+	margin-top: 30px;
+	text-align: center;
+}
+
+header, .experience {
+	border: 2px solid #E13A63;
+	padding: 10px;
+}
+
+/* Phone -600px, Desktop/Laptop 992px+ */
+@media screen and (max-width: 600px) {
+	nav {
+		text-align: center;
+	}
+	.left, .right {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
+	}
+	header, .experience {
+		border: none;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	.break-line {
+		border-bottom: solid #E13A63 2px;
+	}
+}
+
+@media screen and (min-width: 600px) and (max-width: 992px) {
+	nav {
+		text-align: center;
+	}
+	.left, .right {
+		float: none;
+		display: block;
+		margin: 0 auto;
+		text-align: center;
+		width: 90%;
+	}
+	header, .experience {
+		border: none;
+	}
+	ul {
+		list-style-type: none;
+		padding: 0;
+	}
+	.break-line {
+		border: solid #E13A63 2px;
+		margin-top: 2px;
+	}
+}
